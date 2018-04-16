@@ -1,0 +1,12 @@
+C:\Projeto\Friend Location\FriendLocation\Application\bin\Debug\netcoreapp2.0\Application.deps.json
+C:\Projeto\Friend Location\FriendLocation\Application\bin\Debug\netcoreapp2.0\Application.dll
+C:\Projeto\Friend Location\FriendLocation\Application\bin\Debug\netcoreapp2.0\Application.pdb
+C:\Projeto\Friend Location\FriendLocation\Application\bin\Debug\netcoreapp2.0\Domain.dll
+C:\Projeto\Friend Location\FriendLocation\Application\bin\Debug\netcoreapp2.0\Domain.pdb
+C:\Projeto\Friend Location\FriendLocation\Application\obj\Debug\netcoreapp2.0\Application.csprojAssemblyReference.cache
+C:\Projeto\Friend Location\FriendLocation\Application\obj\Debug\netcoreapp2.0\Application.csproj.CoreCompileInputs.cache
+C:\Projeto\Friend Location\FriendLocation\Application\obj\Debug\netcoreapp2.0\Application.AssemblyInfoInputs.cache
+C:\Projeto\Friend Location\FriendLocation\Application\obj\Debug\netcoreapp2.0\Application.AssemblyInfo.cs
+C:\Projeto\Friend Location\FriendLocation\Application\obj\Debug\netcoreapp2.0\Application.csproj.CopyComplete
+C:\Projeto\Friend Location\FriendLocation\Application\obj\Debug\netcoreapp2.0\Application.dll
+C:\Projeto\Friend Location\FriendLocation\Application\obj\Debug\netcoreapp2.0\Application.pdb

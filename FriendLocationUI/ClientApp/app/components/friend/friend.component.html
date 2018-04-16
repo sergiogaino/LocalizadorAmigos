@@ -1,0 +1,60 @@
+﻿
+
+<h1>Cadastrar amigo</h1>
+<div class="form-horizontal">
+    <div class="form-group">
+        <label class="control-label col-sm-1">Nome</label>
+        <div class="col-sm-4">
+            <input #friendName type="text" class="form-control" required>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="control-label col-sm-1">Latitude</label>
+        <div class="col-sm-4">
+            <input #friendLatitude type="number" class="form-control" required>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="control-label col-sm-1">Longitude</label>
+        <div class="col-sm-4">
+            <input #friendLongitude type="number" class="form-control" required>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="col-sm-5">
+            <p *ngIf="formError" class="alert-danger text-center"><em>{{ formError }}</em></p>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="col-sm-2">
+            <button (click)="addFriend(friendName.value, friendLatitude.value, friendLongitude.value)" class="btn btn-default">Adicionar</button>
+        </div>
+    </div>
+</div>
+
+<hr />
+
+<h1>Amigos Próximos</h1>
+
+<p *ngIf="!friends"><em>Sem amigos proximos</em></p>
+
+<table class='table' *ngIf="friends">
+    <thead>
+        <tr>
+            <th>Nome</th>
+            <th>Latitude</th>
+            <th>Longitude</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let friend of friends">
+            <td>{{ friend.name }}</td>
+            <td>{{ friend.latitude }}</td>
+            <td>{{ friend.longitude }}</td>
+        </tr>
+    </tbody>
+</table>
